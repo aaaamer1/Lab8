@@ -60,4 +60,9 @@ public class CustomList extends ArrayAdapter<City> {
         cities.remove(city);
     }
 
+  public boolean hasCity(City city){
+        return false;
+
+  }
+
 }
